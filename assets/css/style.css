@@ -116,7 +116,8 @@ body {
   #header {
     transition: all 0.5s;
     z-index: 997;
-    padding: 26px 0;
+    /* padding: 26px 0; */
+    padding-left: 26px 0px;
     background: rgba(0, 0, 0, 0.9);
   }
   
@@ -125,19 +126,21 @@ body {
   }
   
   #header.header-scrolled {
-    background: rgba(0, 0, 0, 0.9);
+    /* background: rgba(0, 0, 0, 0.9); */
+    display: none;
     padding: 18px 0;
   }
   
   #header .logo {
     font-size: 34px;
-    margin: 0;
     padding: 0;
+    margin: 0;
     line-height: 1;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     letter-spacing: 3px;
-    padding-left: 10px;
+    
+
     /*border-left: 4px solid #02a650;*/
   }
   
@@ -150,13 +153,48 @@ body {
             max-width: 200px;
             width: 150px;
             height: 100px; */
-            max-height: 85px;
+            max-height: 184px;
+            
+  }
+  #header .logo-2 {
+    font-size: 34px;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    
+
+    /*border-left: 4px solid #02a650;*/
+  }
+  
+  #header .logo-2 a {
+    color: #fff;
+  }
+  
+  #header .logo-2 img {
+    /* max-height: 150px;
+            max-width: 200px;
+            width: 150px;
+            height: 100px; */
+            max-height: 184px;
             
   }
   
+  /* .lo{
+    max-height: 200px;
+  
+  } */
   @media (max-width: 992px) {
     #header .logo {
       font-size: 28px;
+    }
+  }
+  @media (max-width: 992px) {
+    #header .logo-2 {
+      font-size: 28px;
+      display: none;
     }
   }
   
@@ -164,6 +202,11 @@ body {
   # Navigation Menu
   --------------------------------------------------------------*/
   /* Desktop Navigation */
+  nav{
+     padding-left: 750px;
+    padding-bottom: 110px; 
+    
+  }
   .nav-menu ul {
     margin: 0;
     padding: 0;
