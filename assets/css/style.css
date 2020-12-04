@@ -203,7 +203,7 @@ body {
   --------------------------------------------------------------*/
   /* Desktop Navigation */
   nav{
-     padding-left: 750px;
+     padding-left: 705px;
     padding-bottom: 110px; 
     
   }
@@ -321,7 +321,7 @@ body {
     top: 15px;
     z-index: 9998;
     border: 0;
-    background: none;
+    background: darkgrey;
     font-size: 24px;
     transition: all 0.4s;
     outline: none !important;
@@ -394,7 +394,9 @@ body {
   .mobile-nav .drop-down li {
     padding-left: 20px;
   }
-  
+  .car{
+    color: green;
+  }
   .mobile-nav-overly {
     width: 100%;
     height: 100%;
@@ -416,7 +418,17 @@ body {
     opacity: 1;
     visibility: visible;
   }
-  
+  .mobile-nav-active .contact_btn{
+    margin-right: 38px;
+    
+    /* margin: 40px; */
+  }
+  .mobile-nav-active .act{
+    text-align: center;
+  }
+  .mobile-nav-active #ac{
+    text-align: center;
+  }
   .mobile-nav-active .mobile-nav-toggle i {
     color: #fff;
   }
@@ -1731,9 +1743,10 @@ body {
     .product_sec p{
           font-weight: 800;
     }
+   
     .first_bg{
         padding: 0px;
-    background-image: url(../img/internal_page_banner/inner-about.jpg);
+    background-image: url(../img/about1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1874,6 +1887,7 @@ body {
       border-color: rgba(183,203,206,0.77);
       border-radius: 0px;
   }
+  
    @media (min-width: 992px){
       .dropdown-menu .dropdown-toggle:after{
         border-top: .3em solid transparent;
@@ -2040,3 +2054,153 @@ body {
         margin-bottom: 2rem;
       }
     }
+    .pricing_wrapper{
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+    
+    .pricing_wrapper .pricing_item{
+      background: rgba(46, 204, 113, 1);
+      margin: 5px 10px;
+      margin-bottom: 50px;
+      width: 300px;
+      padding: 30px 20px;
+      box-shadow: 0 0 2px rgba(0,0,0,0.25);
+      text-align: center;
+    }
+    
+    .pricing_wrapper .pricing_item h3{
+      font-size: 30px;
+      color:  black
+    }
+    
+    .pricing_wrapper .pricing_item p.money{
+      margin: 50px 0 20px;
+      font-size: 52px;
+      color: white;
+    }
+    
+    .pricing_wrapper .pricing_item p.money span{
+      font-size: 12px;
+      color: black;
+    }
+    
+     .pricing_wrapper .pricing_item p{
+      color: white;
+      font-size: 20px;
+    }
+    
+    /* .styled-table th{
+      display:flex;
+      flex-direction: row;
+    } */
+    @media sreen and (max-width:600px){
+      .container-list{
+        display: flex;
+        justify-content: space-around;
+  
+      }
+    }
+    .container-list{
+      display: flex;
+      justify-content: space-around;
+     margin-top: 190px;
+    }
+    .list-item{
+      text-align: center;
+    }
+    h1{
+      margin-bottom:50px;
+    }
+
+.para{
+  margin-bottom: 0;
+}
+
+.empty-para{
+  margin-bottom:0;
+  padding-top:30px;
+  margin-bottom: 50px;
+}
+.apara{
+  padding-top:0px;
+  margin-bottom: 0;
+  font-size: 20px;
+  color: rgba(0, 230, 64, 1);
+}
+.bpara{
+  padding-top:10px;
+  margin-bottom: 0;
+  font-size: 20px;
+  color: rgba(0, 230, 64, 1);
+}
+
+.paras{
+  font-size: 20px;
+  color: rgba(0, 230, 64, 1);
+  margin-bottom: 0;
+}
+.other-pss{
+  font-size: 20px;
+  color: rgba(0, 230, 64, 1);
+  padding-top: 10px;
+}
+.md {
+  font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+.features-sub-head{
+  /* background-color: green; */
+  padding: 2rem 0;
+}
+.container .grid{
+  
+}
+.features-sub-head img {
+  width: 300px;
+  justify-self: flex-end;
+}
+@media (max-width: 768px){
+.features-sub-head{
+    text-align: center;
+  }
+.features-sub-head img{
+    justify-self: center;
+  }
+}
+.grid {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border-style: inset;
+}
+.other-pr{
+  font-weight: 100;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: purple;
+  font-style: italic;
+}
+.para{
+  font-size: 20px;
+  color: #02a650;
+}
+.other-p{
+  font-size: 20px;
+  color: #02a650;
+}
+.other-ps{
+  font-size: 20px;
+  color: purple;
+}
+.empty-para{
+  font-size: 20px;
+  color: #02a650;
+}
