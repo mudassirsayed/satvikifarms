@@ -228,7 +228,7 @@ body {
     position: relative;
     color: #fff;
     transition: 0.3s;
-    font-size: 12px;
+    font-size: 14px;
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     font-weight: 600;
@@ -1732,7 +1732,7 @@ body {
     color: #ddd;
   }
   .contact_btn{
-        background: #02a650;
+        background: rgba(102, 51, 153, 1);
       padding: 13px 30px;
     }
     .product_sec .img-fluid{
