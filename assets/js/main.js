@@ -249,23 +249,31 @@
   // jquery ready start
   $(document).ready(function() {
     // jQuery code
-  
+    $(this).removeClass('dropdown-toggle act');
     //////////////////////// Prevent closing from click inside dropdown
       $(document).on('click', '.dropdown-menu', function (e) {
         e.stopPropagation();
+        $(this).removeClass('dropdown-toggle');
       });
   
       // make it as accordion for smaller screens
       if ($(window).width() < 992) {
+        $(this).removeClass('dropdown-toggle');
         $('.dropdown-menu a').click(function(e){
           e.preventDefault();
+          
             if($(this).next('.submenu').length){
-              $(this).next('.submenu').toggle();
+               window.location.replace("products.html");
+               $(this).removeClass('dropdown-toggle');
             }
-            $('.dropdown').on('hide.bs.dropdown', function () {
+            else if($('.op')){
+              window.location.replace("other-products.html");
+            }
+            $('.dropdown').on('hide.bs.dropdown', function() {
            $(this).find('.submenu').hide();
         })
         });
     }
-    
   }); // jquery end
+
+  

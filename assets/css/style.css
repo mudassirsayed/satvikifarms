@@ -423,12 +423,11 @@ body {
     
     /* margin: 40px; */
   }
+
   .mobile-nav-active .act{
     text-align: center;
   }
-  .mobile-nav-active #ac{
-    text-align: center;
-  }
+  
   .mobile-nav-active .mobile-nav-toggle i {
     color: #fff;
   }
@@ -1929,10 +1928,26 @@ body {
           background-color: #02a650a6;
       color: #fff !important;
     }
-  
+    .banner{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
    .banner img{
           height: 135vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
     }
+    /* @media screen and (max-width:600px){
+      .banner img{
+        height: 135vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  }
+    } */
+    
     .cards {
       padding: 4rem;
       background: #fff;
