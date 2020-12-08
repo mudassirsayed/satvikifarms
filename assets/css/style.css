@@ -1917,7 +1917,7 @@ body {
       }
     }
     .dropdown-item{
-          background: #02a650;
+          background: rgba(102, 51, 153, 1);
       padding: 14px 12px;
       border-bottom: 1px solid #FFF;
     }
@@ -1925,7 +1925,7 @@ body {
       color: #fff !important;
     }
     .dropdown-item:hover{
-          background-color: #02a650a6;
+          background-color: rgba(102, 51, 153, 1);
       color: #fff !important;
     }
     .banner{
@@ -2136,7 +2136,7 @@ body {
 .empty-para{
   margin-bottom:0;
   padding-top:30px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 .apara{
   padding-top:0px;
@@ -2145,7 +2145,7 @@ body {
   color: rgba(0, 230, 64, 1);
 }
 .bpara{
-  padding-top:10px;
+  padding-top:41px;
   margin-bottom: 0;
   font-size: 20px;
   color: rgba(0, 230, 64, 1);
@@ -2159,7 +2159,13 @@ body {
 .other-pss{
   font-size: 20px;
   color: rgba(0, 230, 64, 1);
-  padding-top: 10px;
+  padding-top: 31px;
+}
+.empty-paras{
+  font-size: 20px;
+  color: purple;;
+  margin-bottom: 0;
+  padding-top: 0px;
 }
 .md {
   font-size: 32px;
@@ -2170,6 +2176,17 @@ body {
     position: relative;
     padding-bottom: 15px;
     padding-top: 25px;
+}
+/* .paraa{
+  padding-top: 10px;
+} */
+.nic{
+ padding-bottom: 20px;
+}
+.paro{
+  font-size: 20px;
+  color: #02a650;
+  margin-bottom: 0;
 }
 .features-sub-head{
   /* background-color: green; */
@@ -2210,6 +2227,7 @@ body {
 .other-p{
   font-size: 20px;
   color: #02a650;
+  margin: 0;
 }
 .other-ps{
   font-size: 20px;
@@ -2217,5 +2235,5 @@ body {
 }
 .empty-para{
   font-size: 20px;
-  color: #02a650;
+  color: purple;
 }
