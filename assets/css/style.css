@@ -235,9 +235,11 @@ body {
   }
   
   .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-    color: #02a650;
+    color: white;
   }
-  
+  a .btn .contact_btn{
+    color: white;
+  }
   .nav-menu .drop-down ul {
     display: block;
     position: absolute;
@@ -359,7 +361,7 @@ body {
   .mobile-nav a {
     display: block;
     position: relative;
-    color: #333333;
+    color: white;
     padding: 10px 20px;
     font-weight: 500;
     outline: none;
