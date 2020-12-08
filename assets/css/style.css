@@ -1976,6 +1976,7 @@ body {
     
     .cards__items {
       margin-bottom: 24px;
+      padding: 0px;
     }
     
     .cards__item {
@@ -2061,6 +2062,7 @@ body {
     @media only screen and (min-width: 1024px) {
       .cards__items {
         display: flex;
+        padding: 0px;
       }
     }
     
