@@ -257,23 +257,40 @@
       });
   
       // make it as accordion for smaller screens
-      if ($(window).width() < 992) {
-        $(this).removeClass('dropdown-toggle');
-        $('.dropdown-menu a').click(function(e){
-          e.preventDefault();
+      // if ($(window).width() < 992) {
+      //   $(this).removeClass('dropdown-toggle');
+      //   $('.dropdown-menu a').click(function(e){
+      //     e.preventDefault();
           
-            if($(this).next('.submenu').length){
-               window.location.replace("products.html");
-               $(this).removeClass('dropdown-toggle');
-            }
-            else if($('.op')){
-              window.location.replace("other-products.html");
-            }
-            $('.dropdown').on('hide.bs.dropdown', function() {
-           $(this).find('.submenu').hide();
-        })
-        });
-    }
+      //       if($(this).next('.submenu').length){
+      //          window.location.replace("products.html");
+      //          $(this).removeClass('dropdown-toggle');
+      //       }
+      //       else if($('.op')){
+      //         window.location.replace("other-products.html");
+      //       }
+      //       else if($('.ab')){
+      //         window.location.replace("bankingdetails.html");
+      //         $(this).removeClass('dropdown-toggle');
+      //       }
+      //       else if($('.cd')){
+      //         window.location.replace("https://pages.razorpay.com/satviki_farms");
+      //         $(this).removeClass('dropdown-toggle');
+      //       }
+      //       $('.dropdown').on('hide.bs.dropdown', function() {
+      //      $(this).find('.submenu').hide();
+      //   })
+      //   });
+        // $('.dropdown-menu a').click(function(e){
+        //   e.preventDefault();
+        //   if($('.ab')){
+        //     window.location.replace("bankingdetails.html");
+        //   }
+        //   else if($('.cd')){
+        //     window.location.replace("https://pages.razorpay.com/satviki_farms");
+        //   }
+        // })
+    //}
   }); // jquery end
 
   
