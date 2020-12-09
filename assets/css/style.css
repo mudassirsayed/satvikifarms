@@ -203,7 +203,7 @@ body {
   --------------------------------------------------------------*/
   /* Desktop Navigation */
   nav{
-     padding-left: 705px;
+     padding-left: 640px;
     padding-bottom: 110px; 
     
   }
@@ -235,7 +235,7 @@ body {
   }
   
   .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-    color: white;
+    color: rgba(102, 51, 153, 1);
   }
   a .btn .contact_btn{
     color: white;
@@ -323,7 +323,7 @@ body {
     top: 15px;
     z-index: 9998;
     border: 0;
-    background: darkgrey;
+    background: none;
     font-size: 24px;
     transition: all 0.4s;
     outline: none !important;
@@ -333,7 +333,7 @@ body {
   }
   
   .mobile-nav-toggle i {
-    color: #fff;
+    color: rgba(102, 51, 153, 1);
   }
   
   .mobile-nav {
@@ -1953,7 +1953,7 @@ body {
     .cards {
       padding: 4rem;
       background: #fff;
-      
+      /* background-image: url(../img/products/40.png); */
     }
     
     h1 {
@@ -1974,11 +1974,14 @@ body {
     .cards__wrapper {
       position: relative;
       margin: 50px 0 45px;
+      /* background-color: red; */
     }
     
     .cards__items {
       margin-bottom: 24px;
       padding: 0px;
+      /* background-color: hotpink; */
+      
     }
     
     .cards__item {
@@ -1986,6 +1989,7 @@ body {
       flex: 1;
       margin: 0 1rem;
       border-radius: 10px;
+      /* background-color: green; */
     }
     
     .cards__item__link {
@@ -1998,6 +2002,7 @@ body {
       border-radius: 10px;
       overflow: hidden;
       text-decoration: none;
+      background-image: url(../img/products/40.png);
     }
     
     .cards__item__pic-wrap {
@@ -2132,6 +2137,12 @@ body {
       display:flex;
       flex-direction: row;
     } */
+    /* .container-list{
+      background-image: url(../img/products/40.png);
+    } */
+    .other-prod{
+      background-image: url(../img/products/40.png);
+    }
     @media sreen and (max-width:600px){
       .container-list{
         display: flex;
@@ -2258,4 +2269,20 @@ body {
 .empty-para{
   font-size: 20px;
   color: purple;
+}
+.subbtn{
+    border: none;
+    margin: 20px;
+    padding: 14px;
+    width: 160px;
+    font-family: "montserrat",sans-serif;
+    text-transform: uppercase;
+    border-radius: 6px;
+    cursor: pointer;
+    color: black;
+    background-size: 200%;
+    transition: 0.6s;
+}
+.btn4{
+  background-color: #FFE77AFF;
 }
