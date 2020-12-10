@@ -2312,7 +2312,7 @@ margin-left: 1.6vw;
 }
 
 .fa.fa-whatsapp{
-  background: rgb(0,240,0);
+  background:linear-gradient(rgb(0,240,0),green);
   color: #fff;
   border-radius: 100%; 
   /* padding:5px; */
