@@ -348,7 +348,7 @@ body {
     left: 15px;
     z-index: 9999;
     overflow-y: auto;
-    background: #fff;
+    background: darkgray;
     transition: ease-in-out 0.2s;
     opacity: 0;
     visibility: hidden;
@@ -369,6 +369,9 @@ body {
     padding: 10px 20px;
     font-weight: 500;
     outline: none;
+  }
+  .mobile-nav .contact_btn{
+    color: white; 
   }
   
   .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
@@ -2069,12 +2072,17 @@ body {
         display: none;
       }
       .section-header h3{
-        padding-top: 100px;
+        padding-top: 200px;
       }
       /* .section-header p{
         font-size: 25px;
       } */
 
+    }
+    @media screen and (max-width: 950px){
+      .contact_mob{
+        display: none;
+      }
     }
     @media screen and (max-width:800px){
       .other-pr{
