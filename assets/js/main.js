@@ -247,40 +247,39 @@
   
   
   // jquery ready start
-  $(document).ready(function() {
+  // $(document).ready(function() {
     // jQuery code
-    $(this).removeClass('dropdown-toggle act');
+    
     //////////////////////// Prevent closing from click inside dropdown
-      $(document).on('click', '.dropdown-menu', function (e) {
-        e.stopPropagation();
-        $(this).removeClass('dropdown-toggle');
-      });
+      // $(document).on('click', '.dropdown-menu', function (e) {
+      //   e.stopPropagation();
+      //   $(this).removeClass('dropdown-toggle');
+      // });
   
       // make it as accordion for smaller screens
       // if ($(window).width() < 992) {
-      //   $(this).removeClass('dropdown-toggle');
+      //   $(this).removeClass('dropdown-toggle act');
       //   $('.dropdown-menu a').click(function(e){
       //     e.preventDefault();
-          
       //       if($(this).next('.submenu').length){
       //          window.location.replace("products.html");
       //          $(this).removeClass('dropdown-toggle');
       //       }
-      //       else if($('.op')){
-      //         window.location.replace("other-products.html");
-      //       }
-      //       else if($('.ab')){
-      //         window.location.replace("bankingdetails.html");
-      //         $(this).removeClass('dropdown-toggle');
-      //       }
-      //       else if($('.cd')){
-      //         window.location.replace("https://pages.razorpay.com/satviki_farms");
-      //         $(this).removeClass('dropdown-toggle');
-      //       }
-      //       $('.dropdown').on('hide.bs.dropdown', function() {
-      //      $(this).find('.submenu').hide();
-      //   })
-      //   });
+            // else if($('.op')){
+            //   window.location.replace("other-products.html");
+            // }
+            // else if($('.ab')){
+            //   window.location.replace("bankingdetails.html");
+            //   $(this).removeClass('dropdown-toggle');
+            // }
+            // else if($('.cd')){
+            //   window.location.replace("https://pages.razorpay.com/satviki_farms");
+            //   $(this).removeClass('dropdown-toggle');
+            // }
+        //     $('.dropdown').on('hide.bs.dropdown', function() {
+        //    $(this).find('.submenu').hide();
+        // })
+        // });
         // $('.dropdown-menu a').click(function(e){
         //   e.preventDefault();
         //   if($('.ab')){
@@ -290,7 +289,7 @@
         //     window.location.replace("https://pages.razorpay.com/satviki_farms");
         //   }
         // })
-    //}
-  }); // jquery end
+   // }
+ // }); // jquery end
 
   

@@ -2286,3 +2286,38 @@ body {
 .btn4{
   background-color: #FFE77AFF;
 }
+.icon .icon--fill{
+  overflow-wrap: break-word;
+font-family: Poppins;
+font-weight: 300;
+font-style: normal;
+letter-spacing: 0em;
+text-transform: none;
+-webkit-font-smoothing: antialiased;
+font-size: calc(1 * 1rem);
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+pointer-events: auto;
+background: transparent;
+cursor: pointer;
+color: inherit;
+text-decoration: none;
+position: relative;
+display: block;
+box-sizing: content-box;
+line-height: 1;
+width: 29px;
+height: 29px;
+margin-left: 1.6vw;
+}
+
+.fa.fa-whatsapp{
+  background: linear-gradient(rgb(0,240,0),green);
+  color: #fff;
+  border-radius: 50%; 
+  /* padding:5px; */
+  text-align: center;
+  /* line-height: 90px; */
+  /* width:100px;
+  height:100px; */
+  font-size:34px;
+}
